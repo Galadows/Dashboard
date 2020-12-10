@@ -17,7 +17,7 @@ public class DashboardApplication {
 
 	@GetMapping("/")
 	public String welcome(@RequestParam(value = "name", defaultValue = "World") String name) {
-	return "Hello";
+	return "Hello"+ name;
 	}
 
 	@GetMapping("/greeting")
