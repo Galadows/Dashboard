@@ -1,0 +1,29 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.0'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+	id 'war'
+}
+
+group = 'com.team-ulti'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '15'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'org.springframework.session:spring-session-core'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.projectreactor:reactor-test'
+}
+
+test {
+	useJUnitPlatform()
+}
