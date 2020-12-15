@@ -3,6 +3,11 @@ import React from 'react';
 function Connexion() {
         return (
             <div className="Connexion">
+                <header>
+                    <h1 className='Header-title'>
+                        Dashboard
+                    </h1>
+                </header>
                 <body className="Connexion-body">
                     <h1 className='Connexion-title'>
                         Connexion
@@ -19,7 +24,7 @@ function Connexion() {
                             </div>
                         </div>
                         <div className="Connexion-register">
-                            <p>Pas encore inscrit ?  C'est par ici que ca se passe : <a href='blank' className='hlink'>inscription</a>.</p>
+                            <p>Pas encore inscrit ?  C'est par ici que ca se passe : <a href='./Inscription.js' className='hlink'>inscription</a>.</p>
                         </div>
                     </div>
                 </body>

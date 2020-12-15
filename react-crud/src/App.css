@@ -13,6 +13,16 @@
   }
 }
 
+header {
+  background-color: #282c34;
+}
+
+.Header-title {
+  margin: 0;
+  color: white;
+  font-size: calc(10px + 5vmin);
+}
+
 .Connexion-body {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,9 +32,8 @@
 .Connexion-title {
   margin: 0;
   margin-bottom: 8vh;
-  padding-top: 2vh;
   color: #61dafb;
-  font-size: calc(10px + 5vmin);
+  font-size: calc(10px + 3vmin);
 }
 
 .Connexion-container {

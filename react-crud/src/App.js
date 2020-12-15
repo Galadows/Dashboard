@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Connexion from './pages/Connexion';
+import Inscription from './pages/Inscription';
 
 function App() {
+  var pages = <Inscription />;
+
   return (
 
-    <Connexion />
+    pages
 
     // <div className="App">
     //   <header className="App-header">
