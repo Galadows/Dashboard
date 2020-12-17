@@ -67,9 +67,9 @@ function App() {
                           <Field type="text" name="confirm" value={this.state.confirm} onChange={this.handleChange}>Confirm Password</Field>
                           <button type="submit" onSubmit={this.handleSubmit} className="btn btn-primary" onClick="page='Main'">Send</button>
                       </div>
-                      <div className="Connexion-register">
+                      {/* <div className="Connexion-register">
                           <p>Pas encore inscrit ?  C'est par ici que ca se passe : <a href='./Connexion.js' className='hlink'>inscription</a>.</p>
-                      </div>
+                      </div> */}
                   </div>
               </body>
           );
