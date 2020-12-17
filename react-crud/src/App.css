@@ -31,7 +31,8 @@ header {
 
 .Connexion-title {
   margin: 0;
-  margin-bottom: 8vh;
+  padding-top: 10vh;
+  margin-bottom: 5vh;
   color: #61dafb;
   font-size: calc(10px + 3vmin);
 }
@@ -50,6 +51,10 @@ header {
   flex-direction: column;
   text-align: left;
   margin-bottom: 4vh;
+}
+
+.Form-line label {
+  padding-left: 0.5vmin;
 }
 
 .Connexion-register {
